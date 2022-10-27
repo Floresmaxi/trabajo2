@@ -1,0 +1,464 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+  }
+  .hr{
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    margin: 25px;
+  }
+  .section{
+    background-color: #aaa;
+  }
+  .header{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: flex-start;
+    cursor: pointer;
+    height: 40%;
+    padding: 2px 20%;
+  }
+  li a:hover{
+    opacity: 0.9;
+    color: #16ed;
+  }
+  
+  .nav-li{
+    display: inline-block;
+    padding: 12px;
+    margin-top:25px;
+    
+  }
+  .nav-li a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .home{
+    border: 5px solid #000;
+    border-radius: 40px;
+    background-color: #000;
+    padding: 5px;
+  }
+  
+  .container-h h1{
+    font-size: 40px;
+  }
+  .container-h{
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+  }
+  .link-li{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 15px;
+  }
+  .link-li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .star{
+    border: 1px solid #000;
+    background-color: #000;
+    padding: 10px;
+  }
+  .section2{
+    background-color: #ccc;
+    display: flex;
+    flex-flow: column wrap;
+  
+  }
+  .container-logos{
+    display: flex;
+    border: solid #aaa;
+    background-color: #aaa;
+    height: 6px;
+    margin: 4% 7%;
+  }
+  .logo{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    bottom: 33px;
+    border-radius: 50px;
+    width:70px;
+    height: 70px;
+    background-color: #fff;
+    border: 5px solid #aaa;
+    padding: 9px;
+  }
+  .container-p{
+    display: flex
+  }
+  .info{
+    font-size: 13px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    text-align:start;
+    padding: 12px;
+    margin: 10px;
+    width: 25%;
+  }
+  .info p{
+    padding: 12px 0;
+  }
+  .links-a{
+    text-decoration: none;
+    background-color:#aaa ;
+    color: #fff;
+    border-radius: 50px;
+    border: 5px solid #aaa;
+    margin: 5px;
+    border: 7px solid #aaa;
+  }
+  .footer{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .container-portfolio{
+    display: flex;
+  }
+  .project{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    width: 20%;
+    text-align:center;
+    font-size: 20px;
+  }
+  .project p{
+    font-size: 15px;
+    text-align: start;
+  }
+  .project img{
+    width: 200px;
+    height: auto;
+  }
+  .project a{
+    margin: 12px;
+    text-decoration: none;
+    color: #aaa;
+  }
+  .project a:hover{
+    color: #27bdb5;
+  }
+  .box-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 15px;
+  }
+  .testimonials{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    width: 33%;
+    margin: 50px;
+  }
+  .contenedor-img-p{
+    display: flex;
+    margin: 12px;
+  }
+  .testimonials p{
+    text-align: start;
+    padding-left:15px;
+    font-size: 15px;
+    color: #aaa;
+    font-family: italic;
+    line-height: 18px;
+    margin-bottom: 80px;
+  }
+  .testimonials img{
+    border-radius: 3px;
+    width: 100px;
+    height: 60px;
+  }
+  .blog{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 50px;
+    width: 34%;
+  }
+  .hr2{
+    border: 1px solid #aaa;
+    width: 60%;
+    height: 0;
+  }
+  
+  .blog p{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin: 12px 0;
+    line-height: 25px;
+    font-size: 15px;
+    color: #aaa;
+  }
+  .hr-blog{
+    border: 1px solid #aaa;
+    width: 100%;
+  }
+  .tweets{
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin:50px;
+    width: 33%;
+    text-align:center;
+  }
+  .tweets p{
+    color: #aaa;
+    padding: 12px 0;
+  }
+  .tweets img{
+    border-radius: 3px;
+    width: 50px;
+    margin:12px
+  }
+  .tweets a{
+    color: #ff0000;
+    text-decoration: none
+  }
+  .container-ul {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    align-items: flex-end;
+    cursor: pointer;
+    width: 100%;
+    padding: 0px 50px;
+  }
+  .footer-links{
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 15px;
+  }
+  .footer-links a{
+    text-decoration: none;
+    color: #aaa;
+  }
+  
+  
+  @media only screen and (min-width:480px) and (max-width:768px){
+    .header{
+      color: #fff;
+      display: flex;
+      flex-wrap: column wrap;
+      justify-content: center;
+      align-items:center;
+    }
+    .container-h h1{
+      font-size: 25px;
+    }
+    .container-h{
+      font-size: 15px;
+    }
+    .nav-li{
+      display: none;
+      /*aqui iría el menú hamburguesa pero como no se js no lo agrego*/
+    }
+    .container-logos{
+      display: flex;
+      border: solid #aaa;
+      background-color: #aaa;
+      height: 6px;
+      margin: 9% 7%;
+    }
+    .container-p{
+      display: flex;
+      flex-direction: row wrap;
+      justify-content: space-between;
+    }
+    .info{
+      text-align: start;
+      font-size: 12px;
+      padding: 10px;
+      width: 30%;
+      line-height: 18px;
+    }
+    .links-a{
+      border: 5px solid #aaa;
+    }
+    .container-portfolio{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+    .project{
+      margin:0 20px;
+      width: 25%;
+      text-align:center;
+    }
+   .project p{
+    font-size: 15px;
+    text-align: start;
+   }
+   .box-footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    }
+    .testimonials{
+      width: 40%;
+      margin: 20px;
+    }
+    .contenedor-img-p{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 12px;
+    }
+    .testimonials img{
+      width: 150px;
+      height: 100px;
+      margin: 10px 0;
+    }
+    .blog{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      width: 40%;
+      margin:20px;
+    }
+    .containers-p{
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-between;
+      color: #aaa;
+      line-height: 25px;
+      font-size: 15px;
+    }
+    .tweets{
+      width: 100%;
+      margin: 10px;
+  
+    }
+    .content{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+    .content p{
+      margin: 12px 5px;
+    } 
+  }
+  
+  @media only screen and (min-width:320px) and (max-width:480px){
+    .header{
+      color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items:center;
+    }
+    .container-h h1{
+      font-size: 25px;
+    }
+    .container-h{
+      font-size: 15px;
+    }
+    .nav-li{
+      display: none;
+    }
+    .container-logos{
+      display: none;
+      /* lamentablemente estructure mal la linea y lo puse fuera de sus respectivas info y por eso lo saque*/
+    }
+    .container-p{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .info{
+      font-size: 15px;
+      padding: 10px;
+      margin: 10px;
+      width: 60%;
+      line-height: 20px;
+    }
+    .container-portfolio{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .project{
+      margin:10px;
+      width: 60%;
+      text-align:center;
+   }
+   .project p{
+    font-size: 15px;
+    text-align: center;
+   }
+   .box-footer{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-items: center;
+    font-size: 15px;
+    width: 60%;
+    }
+    .testimonials{
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content:center;
+      align-items: center;
+      width: 90%;
+    }
+    .contenedor-img-p{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 12px;
+    }
+    .contenedor-img-p{
+      display: flex;
+      flex-flow: column wrap;
+    }
+    .blog{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+    }
+    .containers-p{
+      margin-bottom:50px;
+      color: #aaa;
+      line-height: 25px;
+      font-size: 15px;
+    }
+    .tweets{
+      display: flex;
+      flex-flow:column nowrap;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      text-align:center;
+    }
+    .footer-links{
+        /*aqui iria un botón que nos envie de vuelta nav del principio*/
+      display: none;
+      
+    }
+}
